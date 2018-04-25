@@ -4,5 +4,9 @@ export class Product {
   amount: number;
   typeAmount: string;
 
-  number = 3;
+  constructor(name: string, amount: number, typeAmount: string) {
+    this.name = name;
+    this.amount = amount;
+    this.typeAmount = typeAmount;
+  }
 }
